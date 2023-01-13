@@ -1,0 +1,76 @@
+.logo {
+    height: 50px;
+}
+
+nav {
+    
+    background-color: black;
+
+}
+      
+ul { 
+    display: flex;
+    
+}
+
+li{ 
+    margin-left: 20px;
+   
+     }
+     
+    a{color: white;}
+
+
+    body{
+         display: block;
+        background-clip: border-box;
+        background-color:peachpuff;
+
+    }
+
+
+    aside {
+        display: flex;
+      
+      }
+
+      .bo{
+          display: grid;
+          grid-template-columns: 80% 20%; 
+
+      }
+
+      .so{
+          background-color: beige;
+
+      }
+
+
+   .lo{
+        display: flex; 
+    }
+   
+    .logo{
+          display: block;
+         
+
+    }
+
+    .ti{
+        display: block;
+        text-align: center;
+    }
+@media screen and (max-width:768px) {
+    .imgpro {
+        width: 500px;
+    }
+    div{
+        min-width: 0px;
+    }
+    .so{
+        display: none;
+    }
+    .sa{
+        min-width: 0px;
+    } 
+}
