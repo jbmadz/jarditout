@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <img class="logo" src="./img/jarditou_logo.jpg" alt="">
+        <p>La qualité depuis 70ans</p>
+
+    </header>
+
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="tableau.html">Tableau</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+        <img src="./img/promotion.jpg" alt="">
+
+      <h1>Contact</h1>
+      <hr>
+
+      <form action="">
+        <tr>
+          <td>
+      <p>Vos Coordonnées</p>
+          </td>
+        </tr>
+
+         <label for="nom" >Nom</label>
+          <input  type="text" id="nom" name="nom">
+          <span id="nomManquant"></span>
+
+       <br>
+
+         <label for="prenom" >Prénom:</label> 
+          <input  type="text" id="prenom" name="prenom">
+          <span id="prenomManquant"></span>
+
+       <br>
+       <br>
+
+       <label for="sexe">Sexe:</label>
+       <input type="radio" id="sexeF" name="sexe" required value="Féminin">Féminin
+       <input type="radio" id="sexeM" name="sexe" required value="Masculin">Masculin
+
+       <br>
+
+         <label for="date" >Date de naissance:</label>
+          <input type="date" name="date" id="date">
+          <span id="dateManquant"></span>
+
+       <br>
+
+          <label for="codep">Code postal:</label>
+           <input type="text" id="codep" name="codep">
+           <span id="codepManquant"></span>
+
+       <br>
+
+         <label for="adress">Adresse:</label> 
+          <input type="text" name="adress" id="adress">
+          <span id="adressManquant"></span>
+
+       <br>
+
+         <label for="ville">Ville:</label> 
+          <input type="text" name="ville" id="ville">
+          <span id="villeManquant"></span>
+
+       <br>
+
+          <label for="mail">Email:</label>
+           <input type="mail" name="mail" id="mail">
+           <span id="mailManquant"></span>
+
+      </form>
+       <br>
+       <br>
+       <p>Votre demande</p>
+       <br>
+       <label for="Sujet">Sujet:</label>
+       <select id="Sujet"> 
+           <option value="" selected>-</option>
+           <option value="Bleu">Rouge</option>
+           <option value="Rouge">Jaune</option>
+           <option value="Vert">Vert</option>
+       </select>
+       <br>
+       Votre question*: <textarea name="commentaire" rows="2" cols="20"></textarea>
+       <br>
+       <br>
+       <input type="checkbox" value=""> * j'accepte le traitement de ce formulaire
+       <br>
+       <br>
+       <label for="buttonEnvoyer">buttonEnvoyer</label>
+       <input type="submit" value="Envoyer" id="bouttonEnvoyer">
+       <input type="button" value="Annuler">
+
+       <hr>
+
+       <nav>
+
+        <ul>
+            <li><a href="">Mention légales</a></li>
+            <li><a href="">Horraires</a></li>
+            <li><a href="">Plan du site</a></li>
+
+        </ul>
+
+       </nav>
+
+       <script src="./exo5.js"></script>
+</body>
+
+</html>
